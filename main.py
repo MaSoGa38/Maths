@@ -13,7 +13,9 @@ def cal_deter(matrice: list):
     if ordre == 1:
         return matrice[0]
     elif ordre == 2:
-        return matrice[0]
+        return matrice[0][0]*matrice[1][1] - matrice[0][1]*matrice[1][0]
+    else:
+        return
 
 # Programme principal
 def main():
